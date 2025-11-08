@@ -80,3 +80,14 @@ aks_cluster_x = {
     }
   }
 }
+
+public_ip_x = {
+  "pub-ip_bastion" = {
+    name                = "todoapp-public-ip"
+    resource_group_name = "jaydeep_rg1"
+    location            = "Central india"
+    allocation_method   = "Static"
+    sku                 = "Standard"
+
+  }
+}
