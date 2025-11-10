@@ -67,7 +67,7 @@ aks_cluster_x = {
     default_node_pool   = {
       "nodepool1" = {
         name       = "k8vms"
-        node_count = 1
+        node_count = 3
         vm_size    = "Standard_A2_v2"
       }
     }
